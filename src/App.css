@@ -1,0 +1,62 @@
+.parent-div{
+   height: 100vh;
+   align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid white;
+  background-image: url(weather2.jpg);
+}
+.heading{
+ color: white;
+ margin: auto;
+ margin-top: 7rem;
+
+}
+.card{
+position: absolute;
+justify-content: center;
+align-items: center;
+width: 30vw;
+margin: auto;
+margin-top: 3rem;
+padding-bottom: 4rem;
+padding-top: 2rem;
+background-color: #a3c2d2 !important;
+border-radius: 8px;
+
+}
+.weather_image{
+  width: 100px;
+  height: 100px;
+}
+.input_field{
+  border-radius: 8px;
+  padding: 5px;
+  width: 50%;
+}
+input[type="text"]{
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+}
+button.btn{
+  background-color: tomato;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+button.btn:hover{
+  color: tomato;
+  background-color: white;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+.temp{
+  font-weight: 600;
+  font-size: 40px;
+}
